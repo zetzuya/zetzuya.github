@@ -43,7 +43,27 @@ nav a {
     font-weight: bold;
 }
 
-/* Styling untuk main content */
+.ul-navbar {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   .ul-navbar {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   .li-navbar:hover {
+       background-color: tomato;
+       transition: .5s ease-in-out;
+       transition-delay: .3s;
+       border-radius: 50px;
+   }
+
 main {
     display: flex;
     flex-wrap: wrap;
